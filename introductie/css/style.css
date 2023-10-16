@@ -1,0 +1,18 @@
+body {
+    font-size: 16px;
+}
+.columns {
+    display: flex;
+}
+
+.columns article {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #C0C0C0;
+    width: 50%;
+}
+
+.authored-by {
+    font-size: 14px;
+    color: #C0C0C0;
+}
