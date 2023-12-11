@@ -1,0 +1,74 @@
+body {
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+#container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header,
+footer {
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+/* header */
+header img {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+}
+
+header nav {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+header nav a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* main */
+article h1 {
+    margin-bottom: 0;
+}
+
+article time {
+    display: block;
+    margin-bottom: 20px;
+}
+
+article img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+article p {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+/* footer */
+#socials {
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+#socials li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer {
+    text-align: center;
+}
