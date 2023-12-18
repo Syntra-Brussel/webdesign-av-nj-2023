@@ -1,0 +1,35 @@
+/* van toepassing op élke beeld in een paragraaf element */
+p img {
+    width: 300px;
+}
+
+/* van toepassing op élke element met de class "left" */
+.left {
+    float: left;
+}
+
+/* van toepassing op élke beeld met de class "left" */
+img.left {
+    float: left;
+}
+
+/* van toepassing op élke img element met de class "left" binnen een paragraaf element */
+p img.left {
+    float: left;
+    width: 500px;
+}
+
+/* van toepassing op élk element met de class "left" binnen een paragraaf element */
+p .left {
+    float: left;
+}
+
+/* van toepassing op élk paragraaf element met de class "left" */
+p.left {
+    float: left;
+}
+
+/* van toepassing op élk element met de class "right" */
+.right {
+    float: right;
+}
