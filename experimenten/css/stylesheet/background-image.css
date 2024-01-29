@@ -1,0 +1,53 @@
+h2 {
+    margin: 0;
+}
+
+article {
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+article img {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+article .button,
+article .button:visited {
+    color: #000;
+}
+
+article .button:active {
+    color: red;
+}
+
+.with-background-image {
+    border: none;
+    background: url('https://www.vrt.be/etc.clientlibs/vrtnieuws/clientlibs/clientlib-v2-site/resources/images/footer-banner-lvjh.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.with-background-image .button,
+.with-background-image .button:visited {
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 10px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.with-background-image .button:hover {
+    background-color: #fff;
+    color: #000;
+    cursor: all-scroll;
+}
+
+.with-background-image .button:active {
+    color: red;
+}
