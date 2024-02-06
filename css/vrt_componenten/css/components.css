@@ -1,10 +1,9 @@
 /* CSS voor alle componenten */
-
-/* ul > li structuur wordt gebruik voor layout, niet voor klassieke lijst weergave */
 .component {
     font-family: "Roobert";  /* see font.css */
 }
 
+/* ul > li structuur wordt gebruik voor layout, niet voor klassieke lijst weergave */
 .component ul {
     list-style: none;
     padding: 0;
@@ -34,10 +33,14 @@
 /* hover standaard knop */
 .component .button:hover {
     background-color: rgb(21, 16, 58);
-    color: #FFF
+    color: #FFF;
 }
 
 /* knop met primaire steunkleur */
+/*
+ van toepassing op een element met class "button" & "primary"
+ binnen een element met class "component". 
+ */
 .component .button.primary {
     background-color: rgb(85, 65, 240);
     color: #FFF;
@@ -59,7 +62,6 @@
     color: #000;
     background-color: #FFF;
 }
-
 
 /* CSS voor alle artikel componenten */
 .component.article * {
