@@ -1,0 +1,43 @@
+
+/*
+* Roobert
+*/
+@font-face {
+    font-family: "Roobert";
+    font-weight: 400;
+    src: url("http://www.vrt.be/etc.clientlibs/vrtnieuws/clientlibs/clientlib-v2-site/resources/fonts/Roobert-Regular.woff2")
+        format("woff2"),
+        url("http://www.vrt.be/etc.clientlibs/vrtnieuws/clientlibs/clientlib-v2-site/resources/fonts/Roobert-Regular.woff")
+        format("woff"),
+        url("http://www.vrt.be/etc.clientlibs/vrtnieuws/clientlibs/clientlib-v2-site/resources/fonts/Roobert-Regular.eot")
+        format("embedded-opentype"),
+        url("http://www.vrt.be/etc.clientlibs/vrtnieuws/clientlibs/clientlib-v2-site/resources/fonts/Roobert-Regular.ttf")
+        format("truetype");
+}
+
+@font-face {
+    font-family: "Roobert";
+    font-weight: 500;
+    src: url("http://www.vrt.be/etc.clientlibs/vrtnieuws/clientlibs/clientlib-v2-site/resources/fonts/Roobert-Medium.woff2")
+        format("woff2"),
+        url("http://www.vrt.be/etc.clientlibs/vrtnieuws/clientlibs/clientlib-v2-site/resources/fonts/Roobert-Medium.woff")
+        format("woff"),
+        url("http://www.vrt.be/etc.clientlibs/vrtnieuws/clientlibs/clientlib-v2-site/resources/fonts/Roobert-Medium.eot")
+        format("embedded-opentype"),
+        url("http://www.vrt.be/etc.clientlibs/vrtnieuws/clientlibs/clientlib-v2-site/resources/fonts/Roobert-Medium.ttf")
+        format("truetype");
+}
+
+@font-face {
+    font-family: "Roobert";
+    font-weight: 600;
+    src: url("http://www.vrt.be/etc.clientlibs/vrtnieuws/clientlibs/clientlib-v2-site/resources/fonts/Roobert-SemiBold.woff2")
+        format("woff2"),
+        url("http://www.vrt.be/etc.clientlibs/vrtnieuws/clientlibs/clientlib-v2-site/resources/fonts/Roobert-SemiBold.woff")
+        format("woff"),
+        url("http://www.vrt.be/etc.clientlibs/vrtnieuws/clientlibs/clientlib-v2-site/resources/fonts/Roobert-SemiBold.eot")
+        format("embedded-opentype"),
+        url("http://www.vrt.be/etc.clientlibs/vrtnieuws/clientlibs/clientlib-v2-site/resources/fonts/Roobert-SemiBold.ttf")
+        format("truetype");
+}
+
