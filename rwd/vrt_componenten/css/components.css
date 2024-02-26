@@ -211,7 +211,10 @@
 }
 
 /* cta-sporza media queries hier */
+/* @media queries voor cta split komen hier */
+@media (max-width: 500px) {
 
+}
 
 
 /* CSS Voor call-to-action-full & call-to-action-split */
@@ -279,3 +282,6 @@
 }
 
 /* @media queries voor cta split komen hier */
+@media (max-width: 500px) {
+
+}
