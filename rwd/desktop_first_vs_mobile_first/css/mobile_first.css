@@ -1,0 +1,49 @@
+/* CSS voor het kleinste scherm */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: start;
+}
+
+#logo {
+    width: 20%;
+    align-self: center; /* ga "stretchen" van beeld tegen */
+    padding: 30px;
+}
+
+#banner,
+article img {
+    width: 100%;
+}
+
+article {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #B7B7B9;
+    color: #FFF;
+    padding: 10px;
+}
+
+.boxed {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* display: block */
+
+/* CSS voor het scherm vanaf 700px */
+@media (min-width: 700px) {
+    /* display: flex */
+}
+
+/* CSS voor het scherm vanaf 1000px */
+@media (min-width: 1000px) {
+
+}
